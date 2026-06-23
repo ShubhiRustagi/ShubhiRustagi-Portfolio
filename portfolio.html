@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubhi Rustagi | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f5f5;
+    color:#222;
+    line-height:1.6;
+}
+
+nav{
+    background:#fff;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#222;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#2563eb;
+}
+
+.hero{
+    padding:100px 8%;
+    background:white;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+    color:#555;
+    max-width:600px;
+}
+
+.links{
+    margin-top:25px;
+}
+
+.links a{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#2563eb;
+    padding:10px 18px;
+    border-radius:6px;
+    margin-right:10px;
+}
+
+section{
+    padding:70px 8%;
+}
+
+h2{
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.about p{
+    max-width:800px;
+    margin-bottom:15px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.skill{
+    background:white;
+    padding:10px 16px;
+    border-radius:6px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.project-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.project-card h3{
+    margin-bottom:10px;
+}
+
+.project-card p{
+    color:#555;
+}
+
+.experience ul,
+.certificates ul{
+    margin-left:20px;
+}
+
+.contact p{
+    margin-bottom:10px;
+}
+
+.contact a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#fff;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Shubhi Rustagi</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Shubhi Rustagi</h1>
+    <p>
+        Computer Science Engineering Student at SRM Institute of Science
+        and Technology.
+    </p>
+
+    <div class="links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+
+    <h2>About</h2>
+
+    <p>
+        I'm currently pursuing B.Tech in Computer Science Engineering at
+        SRM Institute of Science and Technology.
+    </p>
+
+    <p>
+        Over the past year I've been learning web development,
+        programming, databases and machine learning through coursework,
+        projects and hackathons.
+    </p>
+
+    <p>
+        I enjoy building things from scratch, exploring new technologies
+        and improving my technical skills through practical experience.
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">Java</div>
+        <div class="skill">C++</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">GitHub</div>
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Student Career Advisor</h3>
+
+            <p>
+                Built a platform that suggests career paths and course
+                recommendations based on a student's interests, skills
+                and academic performance.
+            </p>
+
+            <br>
+
+            <p><strong>Tech:</strong> HTML, Node.js, MySQL</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Email Sentinel Guardian</h3>
+
+            <p>
+                An email security project designed to identify phishing
+                emails, suspicious links and potentially harmful
+                attachments.
+            </p>
+
+            <br>
+
+            <p><strong>Tech:</strong> HTML, Node.js, MySQL</p>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do List App</h3>
+
+            <p>
+                A mobile application for creating, updating and managing
+                daily tasks in a simple and organized way.
+            </p>
+
+            <br>
+
+            <p><strong>Tech:</strong> Flutter, Dart, Firebase, Node.js</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="experience" class="experience">
+
+    <h2>Experience & Activities</h2>
+
+    <ul>
+        <li>Corporate Member - Google Developers on Campus SRM</li>
+        <li>Events Associate - Cherry+ Network</li>
+        <li>Events Intern - Cherry+ Network</li>
+        <li>Events Member - SRMKZILLA</li>
+    </ul>
+
+</section>
+
+<section class="certificates">
+
+    <h2>Certificates & Hackathons</h2>
+
+    <ul>
+        <li>NPTEL - Programming in Java</li>
+        <li>NPTEL - Operating Systems</li>
+        <li>NPTEL - Database Management Systems</li>
+        <li>AWS - Solutions Architect</li>
+        <li>Skyscanner Frontend Simulation</li>
+        <li>OSSOME HACKS 2.0</li>
+        <li>HACKSTREET 3.0</li>
+    </ul>
+
+</section>
+
+<section id="contact" class="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email: <a href="mailto:rustagishubhi20@gmail.com">rustagishubhi20@gmail.com</a></p>
+
+    <p>GitHub: <a href="https://github.com/ShubhiRustagi">ShubhiRustagi</a></p>
+
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/shubhi-rustagi-9a0269330?utm_source=share_via&utm_content=profile&utm_medium=member_ios">Shubhi Rustagi</a></p>
+
+</section>
+
+<footer>
+    <p>© 2026 Shubhi Rustagi</p>
+</footer>
+
+</body>
+</html>
